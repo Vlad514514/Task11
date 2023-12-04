@@ -1,0 +1,235 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    border:3px solid red;
+}
+
+.first{
+    width: 100%;
+    height: 400px;
+    padding: 75px 0 75px;
+    background-color: rgb(160, 151, 203);
+}
+
+.heat{
+    margin: 0 auto;
+    margin-top: -75px;
+    margin-bottom: 35px;
+    width: 50px;
+    height: 20px;
+}
+
+.white{
+    margin: 0 auto;
+    width: 900px;
+    height: 350px;
+    padding-top: 80px;
+    background-color: #fff;
+}
+
+.white .black{
+    width: 700px;
+    height: 250px;
+    margin: 0 auto;
+    background-color: black;
+}
+
+.second{
+    width: 100%;
+    height: 350px;
+    background-color: grey;
+}
+
+.menu{
+    margin: 0 auto;
+    width: 50px;
+    height: 20px;
+}
+
+.wrap{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.BlockRed, .BlockOrange, .BlockAqua, .BlockYellow{
+    margin-top: 10px;
+    height: 300px;
+}
+
+.BlockRed{
+    background-color: red;
+}
+
+.BlockYellow{
+    background-color: orange;
+}
+
+.BlockAqua{
+    background-color: aqua;
+}
+
+.BlockOrange{
+    background-color: yellow;
+}
+
+
+.third{
+    display: grid;
+    grid-template-areas: 
+            'LeftBlock CenterBlock RightBlock';
+    width: 100%;
+    height: 600px;
+}
+
+
+.LeftBlock{
+    height: 600px;
+    background-color: green;
+}
+
+.CenterBlock{
+    background-color: aqua;
+}
+
+.RightBlock{
+    height: 600px;
+    background-color: blue;
+}
+
+
+.Left, .Center, .Right{
+    width: 100px;
+    height: 20px;
+    margin: 0 auto;
+}
+
+.sub_left{
+    margin: 80px auto;
+    width: 75%;
+    height: 500px;
+    background-color: orange;
+}
+
+.sub_Left{
+    margin: 0 auto;
+    height: 20px;
+    width: 30px;
+}
+
+.wrap_left{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.a_left{
+    margin-top: 80px;
+    height: 400px;
+    background-color: silver;
+}
+
+.b_left{
+    margin-top: 80px;
+    height: 400px;
+    background-color: yellow;
+}
+
+.wrap_center{
+    margin-top: 80px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.center_red, .center_yellow, .center_orange{
+    height: 500px;
+}
+
+.center_red{
+    background-color: red;
+}
+
+.center_yellow{
+    background-color: yellow;
+}
+
+.center_orange{
+    background-color: orange;
+}
+
+.a-center{
+    width: 60px;
+    height: 20px;
+    margin: 0 auto;
+}
+
+.wrap_sub_center_yellow{
+    margin-top: 50px;
+    display: flex;
+}
+
+.orange_sub_center{
+    width: 50%;
+    height: 430px;
+    background-color: orange;
+    text-align: center;
+}
+
+.red_sub_center{
+    margin-top: 280px;
+    width: 50%;
+    height: 150px;
+    background-color: red;
+    text-align: center;
+}
+
+.wrap_right{
+    margin-top: 80px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.sub_aqua, .sub_yellow, .sub_orange{
+    height: 150px;
+}
+
+.sub_aqua{
+    margin-top: 350px;
+    background-color: aqua;
+}
+
+.sub_yellow{
+    height: 230px;
+    margin-top: 220px;
+    background-color: yellow;
+}
+
+.sub_orange{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 230px;
+    margin-top: 120px;
+    background-color: orange;
+}
+
+.text_left{
+    margin-top: 180px;
+    width: 60px;
+    height: 25px;
+    background-color: black;
+    color: white;
+    font-style: italic;
+    text-align: center;
+}
+
+.text_right{
+    margin-top: 60px;
+    width: 60px;
+    height: 25px;
+    background-color: black;
+    color: white;
+    font-style: italic;
+    text-align: center;
+    justify-self: end;
+}
